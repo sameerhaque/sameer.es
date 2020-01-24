@@ -17,6 +17,7 @@ export namespace Components {
     'match': MatchResults;
   }
   interface AppRoot {}
+  interface SameerHeader {}
 }
 
 declare global {
@@ -39,10 +40,17 @@ declare global {
     prototype: HTMLAppRootElement;
     new (): HTMLAppRootElement;
   };
+
+  interface HTMLSameerHeaderElement extends Components.SameerHeader, HTMLStencilElement {}
+  var HTMLSameerHeaderElement: {
+    prototype: HTMLSameerHeaderElement;
+    new (): HTMLSameerHeaderElement;
+  };
   interface HTMLElementTagNameMap {
     'app-home': HTMLAppHomeElement;
     'app-profile': HTMLAppProfileElement;
     'app-root': HTMLAppRootElement;
+    'sameer-header': HTMLSameerHeaderElement;
   }
 }
 
@@ -52,11 +60,13 @@ declare namespace LocalJSX {
     'match'?: MatchResults;
   }
   interface AppRoot {}
+  interface SameerHeader {}
 
   interface IntrinsicElements {
     'app-home': AppHome;
     'app-profile': AppProfile;
     'app-root': AppRoot;
+    'sameer-header': SameerHeader;
   }
 }
 
@@ -69,6 +79,7 @@ declare module "@stencil/core" {
       'app-home': LocalJSX.AppHome & JSXBase.HTMLAttributes<HTMLAppHomeElement>;
       'app-profile': LocalJSX.AppProfile & JSXBase.HTMLAttributes<HTMLAppProfileElement>;
       'app-root': LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
+      'sameer-header': LocalJSX.SameerHeader & JSXBase.HTMLAttributes<HTMLSameerHeaderElement>;
     }
   }
 }
