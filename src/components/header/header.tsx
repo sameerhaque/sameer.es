@@ -3,7 +3,6 @@ import 'bulmil';
 
 @Component({
   tag: 'sameer-header',
-  styleUrl: 'sameer-header.css',
   shadow: true
 })
 export class SameerHeader {
