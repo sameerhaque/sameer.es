@@ -27,8 +27,9 @@ export class AppRoot {
           <bm-footer>
             <bm-container is-fluid="false" class={"container is-widescreen"}>  
                 <ul> 
-                  <li><p><a href="">My Github</a></p></li>
-                  <li> Hosted on <a href="https://buttercms.com"><img class="butter_logo" src="https://cdn.buttercms.com/PGJPyIwaQ2KnOA8UyKfH" /></a> </li>
+                  <li>&copy; Sameer Haque</li>
+                  <li><p><a href="http://github.com/sameerhaque" rel="no-follow">My Github</a></p></li>
+                  <li> <p>Hosted on <a href="https://buttercms.com"><img class="butter_logo" src="https://cdn.buttercms.com/PGJPyIwaQ2KnOA8UyKfH" /></a> </p></li>
                 </ul> 
             </bm-container>
           </bm-footer>
