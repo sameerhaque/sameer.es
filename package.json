@@ -13,7 +13,8 @@
   "dependencies": {
     "@stencil/core": "^1.8.4",
     "@stencil/router": "^1.0.1",
-    "bulmil": "0.0.14"
+    "bulmil": "0.0.14",
+    "typed.js": "^2.0.11"
   },
   "license": "MIT",
   "devDependencies": {

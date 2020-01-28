@@ -1,0 +1,33 @@
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+  
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+.footer { 
+    font-family: urbane, sans-serif;
+    font-weight: 300;
+    position: absolute;
+    bottom: 0vh;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 14px; 
+    padding: 3rem 1.5rem !important;
+
+    ul { 
+        list-style: none; 
+        display: inline-flex;
+
+        li {
+            padding: 0 20px;
+        }
+    }
+}
+ 
+
+.butter_logo {
+    width: 12%; position: relative; top: 10px
+}

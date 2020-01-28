@@ -1,0 +1,44 @@
+:host {
+	h1 {
+		padding-left: 10px;
+	}
+
+	a.navbar-item {
+    font-family: urbane, sans-serif; 
+    font-weight: 300; 
+    font-style: normal;
+	}
+
+	.navbar-burger {
+		margin-top: 0;
+		height: 4.6rem;
+	}
+
+	ul.navbar-end {
+		display: inline-block;
+		list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+		li {
+			display: inline-flex;
+			height: 100%;
+			justify-content: center;
+			align-items: center;
+
+			a {
+				padding: 25px;
+				
+				&.active {
+					background: #fafafa;
+				}
+			}
+		}
+	}
+	.navbar-menu {
+		padding: 0;
+	}
+}
+
+
