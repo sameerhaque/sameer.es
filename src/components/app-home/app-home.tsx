@@ -11,8 +11,10 @@ export class AppHome {
     return (
       <div class='app-home'>
         <p>
-          I'm currently trying to build my site using Bulma and StencilJs. Stay tuned for further progress
+          Marketer & Developer
         </p>
+        <br/><br/>
+        <p>Reach out to me at <a href="mailto:contact@sameer.es">contact @ sameer.es</a></p>
  
       </div>
     );
