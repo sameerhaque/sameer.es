@@ -14,7 +14,7 @@ export class AppHome {
           Marketer & Developer
         </p>
         <br/><br/>
-        <p>Feel free to reach me at <a href="mailto:contact@sameer.es">contact @ sameer.es</a></p>
+        <p>Feel free to reach me at <a href="mailto:contact@sameer.ca">contact@sameer.ca</a></p>
  
       </div>
     );
